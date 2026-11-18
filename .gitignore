@@ -1,0 +1,5 @@
+bin/
+__pycache__/
+output/test_*
+output/*.ppm
+output/run_*

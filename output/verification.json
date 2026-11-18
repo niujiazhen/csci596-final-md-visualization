@@ -1,0 +1,20 @@
+{
+  "unit_tests": "PASS: speed, fixed colors/clipping, crossings in 3 axes, ring chronology/capacity",
+  "controls": "PASS: actual key handler, pause/resume, unchanged paused state/history, C/T toggles, exit",
+  "all_particle_final_state": "byte-identical to original integrator reference",
+  "energy_comparison": "all 3001 samples identical to original reference",
+  "final_state_sha256": "1f60848ae3b7851cdd663b11a13a882dad16de1ae9c4ff99b3241cda962bc978",
+  "toggle_combinations": "all four combinations preserve full output",
+  "simulation": {
+    "steps": 3000,
+    "atoms": 108,
+    "trail_samples": 1000,
+    "boundary_breaks": 34,
+    "max_trail_samples": 1000,
+    "frames": 0,
+    "max_drift_over_half_box": 0.006099978502531952,
+    "max_abs_energy_drift_per_atom": 0.0009092208584871031,
+    "initial_energy_per_atom": -3.842468619830929
+  },
+  "invalid_input_checks": "malformed input, small box, zero dt, incompatible and unknown flags rejected"
+}
