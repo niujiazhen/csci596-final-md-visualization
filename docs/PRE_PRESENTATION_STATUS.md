@@ -5,7 +5,8 @@
 ## Confirmed
 
 - Instructor approval: student reported receiving approval by email on November 19.
-- Signup: student reports registering for November 30; the signup sheet has not been independently read by the agent.
+- Signup independently checked in the official signup document: **November 30, row 20, Jiazhen Niu**.
+- Required repository URL appended to the student's existing signup entry; the document displayed **Saved to Drive** after the edit.
 - Implementation: speed colors, fixed legend, marked atom-0 trail, periodic segmentation and controls are present.
 - Numerical checks: rebuilt and rerun successfully on November 19; all 108 final particle states and all 3,001 energy samples match the original reference.
 - Teaching materials: English one-minute script, repository navigation, ten short question answers and Chinese rehearsal instructions prepared.
@@ -19,7 +20,7 @@
 
 ## Still needs the student
 
-- Student's presentation-browser access.
+- Student's presentation-browser access: Chrome was signed out of GitHub during checking; the GitHub login page has been opened for the student.
 - Student's own understanding and two actual timed rehearsals. These cannot be inferred from prepared files.
 
 ## Not due before presentation

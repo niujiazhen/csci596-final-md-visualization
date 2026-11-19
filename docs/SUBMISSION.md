@@ -4,7 +4,8 @@
 
 - [x] Topic approved by Professor Aiichiro Nakano by email, as reported by the student on November 19.
 - [x] Individual project: extend the AS07 molecular-dynamics viewer with speed colors and a periodic-boundary-aware trail.
-- [x] Student reports signup for **November 30, 2026**. This replaces the earlier December 2 preference.
+- [x] Official signup sheet checked: **November 30, 2026, row 20, Jiazhen Niu**. This replaces the earlier December 2 preference.
+- [x] Required GitHub repository URL added to the student's existing signup entry; Google Docs displayed Saved to Drive.
 
 The approval email and student ID are not included in the repository. Keep the email in your school mailbox.
 
@@ -15,7 +16,8 @@ The approval email and student ID are not included in the repository. Keep the e
 - [x] Rebuild and verification passed in the current environment; see `output/verification.json`.
 - [x] Private GitHub repository uploaded; default branch, complete file tree, rendered README and three images verified through GitHub.
 
-Repository: https://github.com/niujiazhen/csci596-final-md-visualization
+Repository: [csci596-final-md-visualization](https://github.com/niujiazhen/csci596-final-md-visualization)
+
 - [ ] Confirm the presentation computer can open the repository while signed in, especially if private.
 - [ ] Student: read the Chinese guide, run the program and explain the two features and validation in your own words.
 - [ ] Student: rehearse twice aloud and fit the spoken explanation into about one minute.
