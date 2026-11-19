@@ -13,7 +13,9 @@ The approval email and student ID are not included in the repository. Keep the e
 - [x] Program, report, source attribution, example input and three real screenshots prepared.
 - [x] One-minute English script, repository navigation and question answers prepared.
 - [x] Rebuild and verification passed in the current environment; see `output/verification.json`.
-- [ ] Create/upload the GitHub repository and verify its README, images, links and default branch.
+- [x] Private GitHub repository uploaded; default branch, complete file tree, rendered README and three images verified through GitHub.
+
+Repository: https://github.com/niujiazhen/csci596-final-md-visualization
 - [ ] Confirm the presentation computer can open the repository while signed in, especially if private.
 - [ ] Student: read the Chinese guide, run the program and explain the two features and validation in your own words.
 - [ ] Student: rehearse twice aloud and fit the spoken explanation into about one minute.

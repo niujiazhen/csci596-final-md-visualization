@@ -11,9 +11,14 @@
 - Teaching materials: English one-minute script, repository navigation, ten short question answers and Chinese rehearsal instructions prepared.
 - Presentation checks: local Markdown links, image sizes/hashes, 114-word script and same-step screenshot data checked by `tests/check_presentation.py`; results in `output/presentation_checks.json`.
 
-## Still needs verification
+## Remote repository verified
 
-- Remote GitHub upload, default branch and rendered README/images.
+- URL: https://github.com/niujiazhen/csci596-final-md-visualization
+- Visibility: private.
+- Complete tracked file tree and commit, default branch, rendered README HTML and three image files verified through GitHub.
+
+## Still needs the student
+
 - Student's presentation-browser access.
 - Student's own understanding and two actual timed rehearsals. These cannot be inferred from prepared files.
 
