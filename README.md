@@ -4,6 +4,8 @@ CSCI 596 Final Project | Fall 2026 | Jiazhen Niu | Individual project
 
 **Presentation: November 30, 2026.** Topic approved by Professor Aiichiro Nakano. [One-minute speaking script](docs/PRESENTATION.md) · [Report](docs/REPORT.md) · [Verification](output/verification.json)
 
+**只有两小时准备？** 按这份[两小时汇报准备清单](docs/TWO_HOUR_PREP_ZH.md)操作即可，包含必须理解的内容、英文备用短稿、五个必答问题和当日操作。
+
 An extension of a course C/OpenGL molecular-dynamics viewer: fixed-scale speed colors reveal fast and slow particles, and a periodic-boundary-aware trail shows the recent path of atom 0.
 
 ![Speed colors and the recent trajectory of atom 0](output/demo_trail.png)
@@ -105,4 +107,4 @@ The original eight-field input format is retained, with whitespace-separated val
 - [Submission checklist](docs/SUBMISSION.md): remaining course and submission steps.
 - [Sources and contribution boundaries](docs/SOURCES.md): original course sources, AS07 work and new code.
 
-This repository contains inherited instructional code. No license for that code has been established, so no blanket open-source license is asserted. Check course policy and attribution before choosing public repository visibility.
+This repository contains inherited instructional code, attributed in [Sources](docs/SOURCES.md). No license for that code has been established, so no blanket open-source license is asserted.

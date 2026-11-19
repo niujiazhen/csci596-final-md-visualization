@@ -21,7 +21,8 @@
 
 ## Still needs the student
 
-- Student's own understanding and two actual timed rehearsals. These cannot be inferred from prepared files.
+- Student's own preparation is a future activity, not a prerequisite for receiving the completed materials: a 120-minute self-guided plan is provided in `TWO_HOUR_PREP_ZH.md`, including targeted code reading, timed practice, a shorter English backup and five essential answers.
+- No rehearsal times or quiz responses need to be sent back to the agent. The student should still understand the material and practice before November 30; these activities have not been claimed as completed.
 
 ## Not due before presentation
 
