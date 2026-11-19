@@ -14,11 +14,11 @@ The approval email and student ID are not included in the repository. Keep the e
 - [x] Program, report, source attribution, example input and three real screenshots prepared.
 - [x] One-minute English script, repository navigation and question answers prepared.
 - [x] Rebuild and verification passed in the current environment; see `output/verification.json`.
-- [x] Private GitHub repository uploaded; default branch, complete file tree, rendered README and three images verified through GitHub.
+- [x] Public GitHub repository uploaded; default branch, complete file tree, rendered README and three images verified through GitHub.
 
 Repository: [csci596-final-md-visualization](https://github.com/niujiazhen/csci596-final-md-visualization)
 
-- [x] Chrome signed-in access checked: README and four embedded images load, and the online speaking script opens.
+- [x] Chrome signed-in access checked; anonymous API access to the public README, speaking script, two-hour guide and three screenshots also verified.
 - [ ] Student: read the Chinese guide, run the program and explain the two features and validation in your own words.
 - [ ] Student: rehearse twice aloud and fit the spoken explanation into about one minute.
 
@@ -35,7 +35,7 @@ Repository readiness and local package checks are recorded in `PRE_PRESENTATION_
 
 - [ ] Incorporate instructor feedback and update the report if needed.
 - [ ] Re-run verification if code changes.
-- [ ] Verify instructor access to the repository. A private repository requires explicit access arrangements before grading.
+- [ ] Recheck the public repository URL before final grading; current anonymous access has already been verified.
 - [ ] Push/upload the final version.
 - [ ] Submit the actual GitHub repository URL to Brightspace and save the receipt.
 - [ ] Check Brightspace for the precise cutoff time; the supplied PDF states December 11 without an hour.

@@ -15,7 +15,7 @@
 ## Remote repository verified
 
 - URL: https://github.com/niujiazhen/csci596-final-md-visualization
-- Visibility: private.
+- Visibility: **public**, changed at the student's explicit request; anonymous access to the rendered README, script, two-hour preparation guide and all three screenshots verified.
 - Complete tracked file tree and commit, default branch, rendered README HTML and three image files verified through GitHub.
 - Chrome access verified after the student signed in: README visible, all four embedded images loaded at 1280 by 720, and the online one-minute script opened successfully.
 
