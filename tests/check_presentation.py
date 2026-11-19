@@ -13,7 +13,7 @@ def main():
     checked_links = 0
     for md in [ROOT/'README.md', *sorted((ROOT/'docs').glob('*.md'))]:
         text = md.read_text(encoding='utf-8')
-        assert 'REDACTED_IDENTIFIER' not in text, f'Student ID in {md.name}'
+        assert not re.search(r'USC\s+ID\s*[:=]\s*\d{10}', text, re.I), f'Student ID in {md.name}'
         for target in re.findall(r'\]\(([^)]+)\)', text):
             if '://' in target or target.startswith(('#', 'mailto:')):
                 continue
