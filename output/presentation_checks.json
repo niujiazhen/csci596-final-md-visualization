@@ -1,0 +1,18 @@
+{
+  "checked_on_client_date": "2026-11-19",
+  "relative_links_checked": 20,
+  "speech_word_count": 114,
+  "estimated_seconds_at_125_wpm": 54.7,
+  "actual_timed_rehearsal": "student must complete; not inferred from word count",
+  "screenshot_dimensions": [
+    1280,
+    720
+  ],
+  "screenshot_sha256": {
+    "uniform": "0082652c73a693cb57958c032e29b01b8fd1d225845d7da8a59ef86e5c28c5da",
+    "speed": "d0368f13cbffc8540026c266e60cb41291afd3eaf8a7a6f37b16379f5b4750fa",
+    "trail": "d92d5bdb5bace196bb09ca01d47a80a27b5ab6f7113b87064a9a61ec0aa8977e"
+  },
+  "snapshot_vs_full_run": "samples 0 through 1600 match",
+  "remote_repository": "checked separately; local materials do not prove upload"
+}

@@ -1,12 +1,14 @@
 # Particle Speeds and Trajectories in Molecular Dynamics
 
-CSCI 596 Final Project | Fall 2026 | Individual project
+CSCI 596 Final Project | Fall 2026 | Jiazhen Niu | Individual project
+
+**Presentation: November 30, 2026.** Topic approved by Professor Aiichiro Nakano. [One-minute speaking script](docs/PRESENTATION.md) · [Report](docs/REPORT.md) · [Verification](output/verification.json)
 
 An extension of a course C/OpenGL molecular-dynamics viewer: fixed-scale speed colors reveal fast and slow particles, and a periodic-boundary-aware trail shows the recent path of atom 0.
 
 ![Speed colors and the recent trajectory of atom 0](output/demo_trail.png)
 
-**Status:** implemented and locally verified. Instructor approval of the topic and classroom presentation are still pending. The project does not claim new molecular-dynamics physics or improved simulation performance.
+**Status:** implemented and locally verified; topic approved. Classroom presentation and final submission are upcoming. The project does not claim new molecular-dynamics physics or improved simulation performance.
 
 ## What is new?
 
@@ -98,6 +100,8 @@ The original eight-field input format is retained, with whitespace-separated val
 - [Project report](docs/REPORT.md): method, validation, results and limitations.
 - [中文入门与操作指南](docs/START_HERE_ZH.md): understand the project before presenting it.
 - [One-minute presentation](docs/PRESENTATION.md): English outline for showing this repository.
+- [中文汇报练习清单](docs/REHEARSAL_ZH.md): rehearsal steps and checks for November 30.
+- [Pre-presentation status](docs/PRE_PRESENTATION_STATUS.md): completed checks and remaining personal steps.
 - [Submission checklist](docs/SUBMISSION.md): remaining course and submission steps.
 - [Sources and contribution boundaries](docs/SOURCES.md): original course sources, AS07 work and new code.
 

@@ -1,33 +1,45 @@
-# One-minute repository presentation
+# November 30: one-minute repository presentation
 
-Use the GitHub repository itself, as required by the assignment. Do not prepare or switch to slides. The draft below describes the implementation already completed locally; update it if the approved scope changes. Practice once aloud and trim to your speaking pace.
+**Presenter:** Jiazhen Niu · **Course:** CSCI 596 · **Date:** November 30, 2026
 
-## Suggested spoken outline
+Use the GitHub repository itself, as required by the assignment. Show the README and its screenshots; do not switch to slides. Topic approval and signup are complete.
 
-My project extends our molecular-dynamics viewer to show particle speeds and trajectories.
+## Spoken script
 
-The original viewer draws particles in one color, so it is hard to see which ones are moving faster or follow one particle over time.
+Hello, I'm Jiazhen Niu. My project makes particle motion easier to understand in our molecular dynamics viewer.
 
-I added a fixed speed color scale, from blue to red, and a recent trajectory for atom zero. When the atom crosses a periodic boundary, the trajectory is split to avoid a false line through the box. Both features can be toggled interactively.
+The original viewer shows identical colors, so speeds and individual paths are difficult to see.
 
-The expected outcome is a clearer view of particle motion without changing the simulation. Initial verification is complete: after three thousand steps, all particle positions and velocities match the original integrator, and the energy samples match too.
+I added a fixed speed color scale, from blue to red, and a recent path for one highlighted particle. At periodic boundaries, the path is split to avoid false lines across the box.
 
-The remaining course steps are topic approval, presentation, and final repository submission.
+The screenshots compare both features at the same simulation step.
 
-## What to show
+To check correctness, I compared the extended program with the original simulation. After three thousand steps, all particle positions and velocities match, and all energy samples match too.
 
-| Time | Repository content |
+The result is a clearer visualization without changing the simulated motion.
+
+## Repository navigation
+
+| Time | Show | Say |
+| --- | --- | --- |
+| 0–12 seconds | README title and main image | Name, goal and original limitation |
+| 12–35 seconds | Three-image comparison in README | Fixed colors, highlighted particle and boundary-aware trail |
+| 35–55 seconds | README verification paragraph | Original-reference comparison and unchanged results |
+| 55–60 seconds | Remain on README | One-sentence conclusion |
+
+At approximately 125–140 words per minute, the script should fit about one minute; verify with an actual rehearsal. If you run over, omit “The screenshots compare both features at the same simulation step.” Do not spend the slot installing, launching or browsing source code.
+
+## Short answers for questions
+
+| Question | Answer |
 | --- | --- |
-| 0–15 seconds | README title and problem statement |
-| 15–40 seconds | Three same-step screenshots; point out legend, white halo and trail |
-| 40–60 seconds | README validation paragraph and report link |
-
-Do not spend the one-minute slot browsing source code or installing anything. The screenshot comparison is enough to show the features from the repository.
-
-## Questions you should be able to answer
-
-- **Why use a fixed color scale?** So the same color means the same speed across frames. Above 4, the color saturates at red.
-- **Why split the trail?** Periodic wrapping makes adjacent positions appear far apart; drawing a connecting line would misrepresent motion.
-- **Why is this beyond AS07?** Speed coloring, the tracked trail, boundary handling, new controls and read-only verification are additions. The base physics and viewer are credited as inherited.
-- **Did the simulation become faster?** No performance claim is made; this is a visualization project.
-- **Does color mean temperature?** No. It encodes a particle's instantaneous speed in reduced units.
+| What did you add beyond AS07? | Speed colors with a fixed legend, a marked particle's recent trail, periodic segmentation, controls and numerical verification. The base physics and viewer are inherited. |
+| What does the color mean? | Instantaneous speed in reduced Lennard-Jones units, from blue at 0 to red at 4 or above; it is not individual temperature. |
+| Why a fixed scale? | A given color should mean the same speed across frames. |
+| Why does the trajectory have gaps? | A particle crossing one periodic face reappears on the other. Connecting those displayed positions would draw a false long line. |
+| Why is the half-box test valid? | Samples are one integration step apart, and the program checks that true per-step displacement is below half a box length on every axis. |
+| Why only one particle and 1,000 points? | It keeps the view readable and bounds storage. It shows recent history, not a diffusion measurement. |
+| How was correctness checked? | Final positions and velocities of all 108 particles match an independent driver of the original integrator after 3,000 steps. All 3,001 energy samples also match. |
+| Are the three screenshots different simulations? | No, they are native OpenGL captures of the same step, 1600, with different display settings. |
+| Is this faster? | No speedup is claimed. The contribution is visualization and validated observation. |
+| What remains before the final deadline? | Incorporate presentation feedback, finalize the repository, and submit its URL by December 11. |
