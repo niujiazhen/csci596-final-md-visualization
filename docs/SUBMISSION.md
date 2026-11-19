@@ -18,7 +18,7 @@ The approval email and student ID are not included in the repository. Keep the e
 
 Repository: [csci596-final-md-visualization](https://github.com/niujiazhen/csci596-final-md-visualization)
 
-- [ ] Confirm the presentation computer can open the repository while signed in, especially if private.
+- [x] Chrome signed-in access checked: README and four embedded images load, and the online speaking script opens.
 - [ ] Student: read the Chinese guide, run the program and explain the two features and validation in your own words.
 - [ ] Student: rehearse twice aloud and fit the spoken explanation into about one minute.
 

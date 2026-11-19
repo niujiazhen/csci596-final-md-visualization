@@ -17,10 +17,10 @@
 - URL: https://github.com/niujiazhen/csci596-final-md-visualization
 - Visibility: private.
 - Complete tracked file tree and commit, default branch, rendered README HTML and three image files verified through GitHub.
+- Chrome access verified after the student signed in: README visible, all four embedded images loaded at 1280 by 720, and the online one-minute script opened successfully.
 
 ## Still needs the student
 
-- Student's presentation-browser access: Chrome was signed out of GitHub during checking; the GitHub login page has been opened for the student.
 - Student's own understanding and two actual timed rehearsals. These cannot be inferred from prepared files.
 
 ## Not due before presentation
